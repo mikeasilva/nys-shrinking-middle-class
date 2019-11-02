@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+README.Rmd
+README.html
+*_cache/
+*_files/
+nys-shrinking-middle-class.Rproj
+nys-shrinking-middle-class.code-workspace
