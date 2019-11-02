@@ -33,7 +33,7 @@ households by income class.
   - **2008-2012 & 2013-2017** - American Community Survey, 5 Year
     Estimates, Table B19001. Household Income in the Past 12 Months
 
-## Inflation
+### Inflation
 
 The original study adjusted the income figures for inflation using the
 [CPI-U-RS](https://www.bls.gov/cpi/research-series/home.htm) series. We
