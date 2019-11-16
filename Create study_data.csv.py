@@ -47,7 +47,11 @@ parameters = {
         "lower_bound_middle_class": 50000,
         "upper_bound_middle_class": 74999,
         "dollar_value_middle_class": 51001,
-        "below_low_class_columns": ["hh_lt_5K", "hh_5K_to_9999", "hh_10K_to_14999"],
+        "below_low_class_columns": [
+            "hh_lt_5K", 
+            "hh_5K_to_9999", 
+            "hh_10K_to_14999"
+        ],
         "above_low_class_columns": [
             "hh_lt_5K",
             "hh_5K_to_9999",
@@ -73,8 +77,8 @@ parameters = {
         ],
     },
     "2000": {
-        "lower_bound_low_class": 25000,
-        "upper_bound_low_class": 29999,
+        "lower_bound_low_class": 20000,
+        "upper_bound_low_class": 24999,
         "dollar_value_low_class": 23150,
         "lower_bound_middle_class": 60000,
         "upper_bound_middle_class": 74999,
@@ -82,15 +86,13 @@ parameters = {
         "below_low_class_columns": [
             "hh_lt_10K",
             "hh_10K_to_14999",
-            "hh_15K_to_19999",
-            "hh_20K_to_24999",
+            "hh_15K_to_19999"
         ],
         "above_low_class_columns": [
             "hh_lt_10K",
             "hh_10K_to_14999",
             "hh_15K_to_19999",
             "hh_20K_to_24999",
-            "hh_25K_to_29999",
         ],
         "below_middle_class_columns": [
             "hh_lt_10K",
