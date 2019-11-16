@@ -7,7 +7,7 @@ This analysis is inspired by a recent [American Enterprise Institute
 report](https://www.aei.org/carpe-diem/three-charts-based-on-todays-census-report-show-that-the-us-middle-class-is-shrinking-because-theyre-moving-up/).
 It shows the U.S. middle class is shrinking because they are moving up.
 
-![Households by Income Class Over Time](http://www.aei.org/wp-content/uploads/2019/09/censusnew1.png)
+![](http://www.aei.org/wp-content/uploads/2019/09/censusnew1.png)
 
 Is this same pattern observed in New York State?
 
