@@ -298,7 +298,7 @@ for year, file_name in files.items():
     print(" Finalizing Data...")
     df["upper_class"] = 1 - df["low_class"] - df["middle_class"]
     df["year"] = int(year)
-    df = df[["geoid", "hh", "low_class", "middle_class", "upper_class", "year"]]
+    df = df[["geoid", "name", "hh", "low_class", "middle_class", "upper_class", "year"]]
 
     try:
         study_data = study_data.append(df)
