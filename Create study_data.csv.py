@@ -47,11 +47,7 @@ parameters = {
         "lower_bound_middle_class": 50000,
         "upper_bound_middle_class": 74999,
         "dollar_value_middle_class": 51001,
-        "below_low_class_columns": [
-            "hh_lt_5K", 
-            "hh_5K_to_9999", 
-            "hh_10K_to_14999"
-        ],
+        "below_low_class_columns": ["hh_lt_5K", "hh_5K_to_9999", "hh_10K_to_14999"],
         "above_low_class_columns": [
             "hh_lt_5K",
             "hh_5K_to_9999",
@@ -83,11 +79,7 @@ parameters = {
         "lower_bound_middle_class": 60000,
         "upper_bound_middle_class": 74999,
         "dollar_value_middle_class": 66144,
-        "below_low_class_columns": [
-            "hh_lt_10K",
-            "hh_10K_to_14999",
-            "hh_15K_to_19999"
-        ],
+        "below_low_class_columns": ["hh_lt_10K", "hh_10K_to_14999", "hh_15K_to_19999"],
         "above_low_class_columns": [
             "hh_lt_10K",
             "hh_10K_to_14999",
@@ -243,7 +235,6 @@ def find_proportion(below, above, total, lower_bound, upper_bound, dollar_value)
     proportion = 0
     for p in np.arange(Pa, Pb, 0.0000001):
         estimate = k / ((1 - p) ** (1 / theta))
-        # print(str(p) + " = $" + str(estimate))
         if estimate > dollar_value:
             break
         proportion = p
