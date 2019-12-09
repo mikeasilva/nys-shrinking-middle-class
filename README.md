@@ -39,9 +39,3 @@ The original study adjusted the income figures for inflation using the
 [CPI-U-RS](https://www.bls.gov/cpi/research-series/home.htm) series. We
 will be using the same series to adjust our income figures into 2018
 dollars.
-
-### Metropolitian definitions
-
-We will be producing metroplitan level estimates. Metro definitions are
-from the [U.S. Bueau of Economic
-Analysis](https://apps.bea.gov/regional/docs/msalist.cfm).
